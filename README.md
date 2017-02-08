@@ -13,7 +13,7 @@ typedef struct loratap_header {
 	uint8_t				_padding;
 	uint32_t			frequency;	/* LoRa frequency */
 	uint8_t				sf;		/* LoRa SF */
-	uint16_t			length;		/* LoRa packet length */
 	uint8_t				_padding2;
+	uint16_t			length;		/* LoRa packet length */
 } loratap_header_t;
 ```
