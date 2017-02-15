@@ -9,7 +9,7 @@ Field details (Values are big-endian)
 * `lt_length`, LoRaTap header length, field used to allow expansion in future versions. Each version can append header parameters. So, whilst parsing, these parameters can be skipped if not defined for older versions by skipping to the offset of lt_length starting from the beginning of the header.
 * `packet_rssi`, RSSI of last packet (dBm)
 * `rssi`, Current RSSI (dBm)
-* `snr`, Espimation of last packet SNR (dB)
+* `snr`, Estimation of last packet SNR (dB)
 * `sf`, The spreading factor as used for the radio packet
 * `frequency`, Frequency packet was received on (MHz)
 
